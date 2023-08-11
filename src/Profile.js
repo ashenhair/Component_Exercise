@@ -12,8 +12,7 @@ export default function Profile({person}) {
 
 function Header({ person }) {
     return <h1>{person.name}</h1>;
-  }
-  
+  }  
   function Avatar({ person }) {
     return (
       <img
